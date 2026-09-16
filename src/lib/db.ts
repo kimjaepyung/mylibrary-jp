@@ -19,7 +19,20 @@ export const getStoredProfile = (): PersonalProfile => {
     return INITIAL_PROFILE;
   }
   try {
-    return { ...INITIAL_PROFILE, ...JSON.parse(saved) };
+    const parsed = JSON.parse(saved);
+    // 이전 기본 프로필(김민준)인 경우 새 프로필(김재평)로 자동 전환
+    if (parsed.ownerName === '김민준' || parsed.libraryTitle === '민준이의 지혜의 서재') {
+      const updated = {
+        ...parsed,
+        ownerName: INITIAL_PROFILE.ownerName,
+        libraryTitle: INITIAL_PROFILE.libraryTitle,
+        motto: INITIAL_PROFILE.motto,
+        avatarEmoji: INITIAL_PROFILE.avatarEmoji,
+      };
+      localStorage.setItem(STORAGE_KEYS.PROFILE, JSON.stringify(updated));
+      return updated;
+    }
+    return { ...INITIAL_PROFILE, ...parsed };
   } catch (e) {
     return INITIAL_PROFILE;
   }
