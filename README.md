@@ -1,8 +1,19 @@
-# 📚 나만의 AI 서재 & 독서 연구소 (My AI Library)
+# 📚 바보들은 모여라 (My AI Library)
 
-> **"1인 1도서관 시대를 위한 나만의 독립형 프라이빗 AI 서재"**
+> **"나를 사색하게 하자"** — 김재평 님의 1인 1도서관 프라이빗 AI 서재 & 독서 연구소 🌱
 
-사용자의 로컬 환경에서 100% 독립적으로 동작하며, 국내외 도서 검색, 맞춤형 3단계 독서 서가(읽는 중, 완독, 위시리스트), AI 북버디와의 인터랙티브 토론 & 퀴즈, 독서 성장 통계 및 데이터 백업을 제공하는 모던 웹 애플리케이션입니다.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkimjaepyung%2Fmylibrary-jp)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-kimjaepyung%2Fmylibrary--jp-181717?style=flat&logo=github)](https://github.com/kimjaepyung/mylibrary-jp)
+[![Next.js 14](https://img.shields.io/badge/Next.js-14.2-black?style=flat&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=flat&logo=typescript)](https://www.typescriptlang.org/)
+
+사용자의 로컬 환경 및 웹 브라우저에서 100% 독립적으로 동작하며, 국내외 도서 검색, 맞춤형 3단계 독서 서가(읽는 중, 완독, 위시리스트), AI 북버디와의 인터랙티브 토론 & 퀴즈, 독서 성장 통계 및 데이터 백업을 제공하는 모던 웹 애플리케이션입니다.
+
+- **📦 GitHub 저장소**: [https://github.com/kimjaepyung/mylibrary-jp](https://github.com/kimjaepyung/mylibrary-jp)
+- **🌿 서재 주인**: 김재평
+- **📖 서재 명칭**: 바보들은 모여라
+- **💡 독서 좌우명**: 나를 사색하게 하자
+- **🌱 대표 아바타**: 지혜의 새싹
 
 ---
 
